@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box1{
+	width: 999px;
+	height: 200px;
+	background: lightblue;
+	margin: 0 auto;
+}
+.h{
+	
+	font:80px "microsoft yahei";
+	color: white;
+	
+	
+}
+.H{
+	font: 40px "microsoft yahei";
+	color: whitesmoke;
+	
+}
+.box1 h3{
+	margin-left: 90px;
+	padding-top: 40px;
+}
+.box1.search{
+	width: 230px;
+	height: 30px;
+	float: right;
+	
+	margin-right:18px ;
+	margin-top: 150px;
+	border: 1px solid #e5e5e5;
+}
+.box1.search input[type=text]{
+	width: 197px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1;
+	float: left;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.box1.search input[type=submit]{
+	width: 33px;
+	height: 30px;
+	border: none;
+	background: #f1f1f1 url(../img/search.png)eno-repeat;
+	float: right;
+	
+}
+.box2 ul{ 
+    width:999px;
+	height: 50px;
+	background: cornflowerblue;
+	margin: 0 auto;
+	list-style: none;
+}
+.box2 ul li{
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width:166.4px;
+	
+	text-align: center;/*水平居中*/
+	height: 50px;
+	line-height: 50px;/*垂直居中*/
+	text-decoration: none;/*去掉下划线，a标签不能继承li，所以下划线去不掉*/
+	border-right: 1px solid black;/*加右边框*/
+	box-sizing: border-box;/*使盒子不会变大*/
+	
+				
+}
+.box2 ul li:last-child{
+	border: none;/*去掉最后一个的有边框*/
+}
+.box2 ul li:hover{
+	background: red;
+}
+.box2 a{
+	text-decoration: none;/*去掉下划线*/
+	font-size: 20px;
+	color: black;
+}
+.box3{
+	width: 999px;
+	height: 250px;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.box3 ul{
+	width: 1000px;
+	height: 280px;
+	animation: gg 10s linear infinite;
+}
+.box3 ul li{
+    width: 200px;
+	height: 280px;
+	list-style: none;
+	float: left;
+}
+.box3 img{
+	width: 300px;
+	height: 280px;
+}
+div:hover{
+	animation-play-state: paused;
+}
+@keyframes gg{
+	from{margin-left: 0;}
+	to{margin-left:-800px;}
+}
